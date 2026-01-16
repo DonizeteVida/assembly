@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/riscv",
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/toolchains/riscv64-linux-gnu.cmake",
+        "-DQEMU_LD_PREFIX=/usr/riscv64-linux-gnu"
+    ]
+}
